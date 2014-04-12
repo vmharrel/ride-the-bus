@@ -1,0 +1,7 @@
+parameters:
+#    ride_pal_routes.example.class: RidePal\RoutesBundle\Example
+
+services:
+#    ride_pal_routes.example:
+#        class: %ride_pal_routes.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,11 @@
+ride_pal_single_ride_tickets:
+    resource: "@RidePalSingleRideTicketsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ride_pal_routes:
+    resource: "@RidePalRoutesBundle/Resources/config/routing.yml"
+    prefix:   /
+
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc

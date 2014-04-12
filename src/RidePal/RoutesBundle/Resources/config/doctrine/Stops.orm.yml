@@ -1,0 +1,21 @@
+RidePal\RoutesBundle\Entity\Stops:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        routeId:
+            type: integer
+        stopLocation:
+            type: string
+            length: 255
+        stopDescription:
+            type: string
+            length: '120'
+        stopTime:
+            type: integer
+    lifecycleCallbacks: {  }

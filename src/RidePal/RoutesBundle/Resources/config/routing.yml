@@ -1,0 +1,33 @@
+# src/RidePal/RoutesBundle/Resources/config/routing.yml
+
+ride_pal_routes_all:
+    pattern:  /routes
+    defaults: { _controller: RidePalRoutesBundle:Routes:all, _format: ~ }
+    requirements:
+        _method: GET
+
+ride_pal_routes_get:
+    pattern:  /routes/{name}
+    defaults: { _controller: RidePalRoutesBundle:Routes:get, _format: ~ }
+    requirements:
+        _method: GET
+        name: "\d+"
+
+ride_pal_routes_post:
+    pattern:  /routes
+    defaults: { _controller: RidePalRoutesBundle:Routes:post, _format: ~ }
+    requirements:
+        _method: POST
+
+ride_pal_routes_put:
+    pattern:  /routes
+    defaults: { _controller: RidePalRoutesBundle:Routes:put, _format: ~ }
+    requirements:
+        _method: PUT
+
+ride_pal_routes_delete:
+    pattern:  /routes/{name}
+    defaults: { _controller: RidePalRoutesBundle:Routes:delete, _format: ~ }
+    requirements:
+        _method: DELETE
+        name: "\d+"

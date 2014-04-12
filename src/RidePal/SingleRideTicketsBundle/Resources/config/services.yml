@@ -1,0 +1,7 @@
+parameters:
+#    ride_pal_single_ride_tickets.example.class: RidePal\SingleRideTicketsBundle\Example
+
+services:
+#    ride_pal_single_ride_tickets.example:
+#        class: %ride_pal_single_ride_tickets.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
